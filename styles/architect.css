@@ -111,10 +111,26 @@ main{
     nav{
         flex-direction: column;
     }
+    .teams-container {
+        flex-direction:column-reverse;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 /* For tab */
 @media screen and (min-width:576px) and (max-width:990px) {
     header{
         padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .teams-container {
+        flex-direction:column;
     }
 }
